@@ -1,8 +1,36 @@
+/**Global Styles**/
+body {
+    font-family: 'Monserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000; 
+}
+h1, 
+h2, 
+h3 {
+    text-transform:uppercase;
+    font-weight: 700;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 12px;
+}
+p {
+    line-height: 36px; 
+}
 .content-wrapper {
     width: 1200px;
     margin: 0 auto;
     overflow: auto; 
 }
+/**Header Styles **/
 header h1, header nav {
     width: 300px;
 }
@@ -15,6 +43,8 @@ header nav {
 header nav ul li {
     display: inline-block;
 }
+/** Main Styles */
+/**Bottom Sections**/ 
 .bottom-section{
     box-sizing: border-box;
 }
@@ -26,6 +56,7 @@ header nav ul li {
     width: 500px;
     float: left;
 }
+/**Footer Styles**/
 footer{
     text-align: center;
 }
