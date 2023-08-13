@@ -1,0 +1,31 @@
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto; 
+}
+header h1, header nav {
+    width: 300px;
+}
+header h1 {
+    float: left;
+}
+header nav {
+    float: right; 
+}
+header nav ul li {
+    display: inline-block;
+}
+.bottom-section{
+    box-sizing: border-box;
+}
+.section-one, .section-three {
+    width: 350px; 
+    float: left;
+}
+.section-two{
+    width: 500px;
+    float: left;
+}
+footer{
+    text-align: center;
+}
